@@ -1,0 +1,32 @@
+conda create -p "environment_name" python=="version" -y
+this above is for creating an environment for your end to end project
+
+after that activate environiron ment by 
+conda activate "environment_name"/
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+
+
+#for doing all thing first time use git global
+
+$ git config --global user.name "username"
+$ git config --global user.email user_email_id
+
+
+$ git config --global core.editor emacs
+
+
+git remote add origin https://github.com/SudeshRPatil20/mlproject.git
+git push -u origin main
+
+
+
+#### now we will create the setup that will joint to my mll project it means convert the python to pacages
+
+1.refer the setup code 
+(note setup work flow setup.py runs --> __init__.py trigers --> our pacages is created)
+2,after creating setup once you run the project you will autometically see that mlproject.egg-info is installed
+3.  
