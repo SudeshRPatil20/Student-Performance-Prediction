@@ -30,3 +30,17 @@ git push -u origin main
 (note setup work flow setup.py runs --> __init__.py trigers --> our pacages is created)
 2,after creating setup once you run the project you will autometically see that mlproject.egg-info is installed
 3.  
+
+note: the below is for checking exception.py file 
+if __name__=="__main__":
+    
+    try:
+        a=1/0
+    except Exception as e:
+        logging.info("Divide by zero error")
+        raise CustomException(e,sys)
+
+
+note below is for checking logging file
+if __name__=="__main__":
+    logging.info("Loggging has started")
