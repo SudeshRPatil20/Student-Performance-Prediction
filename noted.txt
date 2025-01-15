@@ -3,6 +3,7 @@ this above is for creating an environment for your end to end project
 
 after that activate environiron ment by 
 conda activate "environment_name"/
+example:- conda activate vnev/
 
 git init
 git add README.md

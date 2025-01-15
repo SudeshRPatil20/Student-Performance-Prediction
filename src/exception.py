@@ -1,6 +1,6 @@
 # error handling in exeption
 import sys
-import logging
+from src.logger import logging
 
 #sys provides exeption handling like any exeption occur sys will control that exeption
 
