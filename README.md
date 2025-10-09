@@ -149,11 +149,6 @@ Deployment configurations are set in the `.ebextensions/` folder.
 
 ---
 
-## 👨‍💻 Author
-
-**Sudesh Alok Ahirrao**
-🔗 [Portfolio](https://alokahirrao.netlify.app/)
-📧 [sudesh@example.com](mailto:sudesh@example.com)
 
 ---
 
@@ -176,3 +171,4 @@ Let me know if:
 - You want this to support **multi-model** deployment (like regression + classification),
 - You’d like me to generate a matching `Dockerfile`, `setup.py`, or `CI/CD` template.
 ```
+
