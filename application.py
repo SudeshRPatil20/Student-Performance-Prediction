@@ -46,9 +46,9 @@ def predict_datapoint():
 
         return render_template('home.html',results=results[0])
 
-def handler(event, context):
-    from vercel_py_adapter import VercelAdapter
-    return VercelAdapter(app).handle(event, context)
+# def handler(event, context):
+#     from vercel_py_adapter import VercelAdapter
+#     return VercelAdapter(app).handle(event, context)
 
 if __name__=="__main__":
     app.run(debug=True)
