@@ -1,0 +1,146 @@
+{
+  "kb_version": "1.0",
+  "company": "Varaha",
+  "domain": "Cotton procurement and traceability",
+  "last_updated": "2026-02-06",
+
+  "core_purpose": {
+    "summary": "Varaha works with farmers to procure cotton in a transparent, traceable, and sustainable way while ensuring fair practices and documented processes.",
+    "farmer_benefit": "Farmers get clear records, better compliance, improved market trust, and support during procurement."
+  },
+
+  "visit_and_engagement": {
+    "representative_visit": {
+      "question": "Has any Varaha representative visited you?",
+      "answer": "Yes, Varaha representatives may visit farmers to explain the procurement process, verify farm details, and monitor cotton picking and transport.",
+      "why_it_matters": "This ensures transparency and that cotton is sourced responsibly.",
+      "farmer_benefit": "Farmers receive guidance and clarity during the entire process."
+    }
+  },
+
+  "cotton_sale": {
+    "sold_to_varaha": {
+      "question": "Have you sold cotton to the Varaha company?",
+      "answer": "Farmers sell cotton to Varaha through a documented procurement process.",
+      "process_explanation": "The sale includes quantity recording, quality checks, pricing confirmation, and documentation.",
+      "farmer_benefit": "This reduces disputes and ensures trust."
+    },
+
+    "bags_sold": {
+      "question": "How many bags did you sell?",
+      "answer": "The number of bags sold is recorded at the time of procurement.",
+      "explanation": "Each bag is counted and noted to maintain accurate quantity records.",
+      "farmer_benefit": "Clear quantity tracking avoids confusion later."
+    },
+
+    "weight_sold": {
+      "question": "How many kilos or quintals of cotton did you sell?",
+      "answer": "The total cotton weight is measured in kilograms or quintals during procurement.",
+      "explanation": "Weight measurement is a key factor for pricing and documentation.",
+      "farmer_benefit": "Ensures correct payment based on actual quantity."
+    }
+  },
+
+  "pricing": {
+    "base_price_and_premium": {
+      "question": "What was the base price and premium received?",
+      "answer": "The base price is the standard cotton rate, and the premium is an additional amount for meeting Varaha quality or sustainability criteria.",
+      "explanation": "Premiums may be linked to proper picking practices, documentation, and traceability.",
+      "farmer_benefit": "Farmers can earn better value by following recommended practices."
+    }
+  },
+
+  "documentation": {
+    "certificate_or_document": {
+      "question": "Did you receive any certificate or document from the Varaha team?",
+      "answer": "Varaha provides documents or certificates related to cotton procurement.",
+      "explanation": "These documents confirm that the cotton was sourced responsibly and through a verified process.",
+      "farmer_benefit": "Helps farmers prove compliance and build credibility."
+    }
+  },
+
+  "picking_process": {
+    "picker_arrangement": {
+      "question": "Did you manage pickers or did the company provide them?",
+      "answer": "Pickers may be arranged by the farmer or supported by the company depending on the arrangement.",
+      "explanation": "The goal is to ensure cotton is picked properly and safely.",
+      "farmer_benefit": "Reduces operational burden on farmers."
+    },
+
+    "safety_gear": {
+      "question": "Did picking happen with aprons and head gear?",
+      "answer": "Yes, proper aprons and head gear are encouraged during picking.",
+      "explanation": "This ensures safety and maintains cotton quality.",
+      "farmer_benefit": "Protects workers and improves cotton cleanliness."
+    },
+
+    "team_presence": {
+      "question": "Was the Varaha team present during the picking?",
+      "answer": "Varaha team members may be present to observe and ensure correct practices.",
+      "explanation": "Presence helps maintain standards and resolve issues immediately.",
+      "farmer_benefit": "Farmers receive on-ground support."
+    }
+  },
+
+  "transportation": {
+    "transport_destination": {
+      "question": "Where was the cotton transported?",
+      "answer": "Cotton is transported to designated collection or processing locations.",
+      "explanation": "Locations are chosen to maintain traceability.",
+      "farmer_benefit": "Ensures cotton reaches the right destination safely."
+    },
+
+    "transport_payment": {
+      "question": "Who paid for the cotton transport?",
+      "answer": "Transport costs may be covered by the company or as per the agreed arrangement.",
+      "explanation": "This is clarified during procurement.",
+      "farmer_benefit": "Reduces unexpected expenses."
+    },
+
+    "covered_vehicles": {
+      "question": "Was cotton transported in covered and cleaned vehicles?",
+      "answer": "Yes, cotton is transported in covered vehicles cleaned before loading.",
+      "explanation": "This prevents contamination and moisture damage.",
+      "farmer_benefit": "Maintains cotton quality and value."
+    }
+  },
+
+  "traceability_and_compliance": {
+    "why_traceability": {
+      "summary": "Traceability ensures cotton can be tracked from farm to processing.",
+      "explanation": "This helps meet sustainability and market requirements.",
+      "farmer_benefit": "Builds long-term market trust."
+    }
+  },
+
+  "farmer_benefits_summary": {
+    "key_benefits": [
+      "Transparent pricing",
+      "Proper documentation",
+      "Quality protection",
+      "Reduced disputes",
+      "Better market access"
+    ],
+    "long_term_impact": "Following Varaha processes can help farmers improve income stability and reputation."
+  },
+
+  "extra_information": {
+    "support_and_queries": {
+      "summary": "Farmers can raise questions anytime during or after procurement.",
+      "agent_instruction": "If a question is not covered here, forward it to the support team.",
+      "farmer_benefit": "Ensures concerns are addressed properly."
+    },
+
+    "continuous_improvement": {
+      "summary": "Varaha continuously improves processes based on farmer feedback.",
+      "explanation": "Feedback helps refine picking, transport, and documentation.",
+      "farmer_benefit": "Better experience in future seasons."
+    }
+  },
+
+  "fallback_rules": {
+    "unknown_answer": "If information is not available, the agent must say the query will be forwarded to the support team.",
+    "no_guessing": true,
+    "no_assumptions": true
+  }
+}
